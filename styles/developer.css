@@ -4,7 +4,8 @@
   /* font-size: 20px; */
 }
 /* header styles */
-header {
+header,
+.about {
   background-color: #fff8f3;
 }
 nav {
@@ -47,23 +48,30 @@ nav h3 {
 .banner {
   display: flex;
   justify-content: space-between;
+  gap: 160px;
   align-items: center;
-  padding: 50px 230px;
+  padding: 0 0 0 230px;
+  background-image: url(../images/header_bg.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
 }
 .banner h3 {
   font-size: 45px;
   font-weight: 600;
   color: #474747;
+  margin: 0;
 }
 .banner h1 {
   font-size: 85px;
   font-weight: 700;
   color: #181818;
+  margin: 5px 0 20px;
 }
 .banner p {
   color: #757575;
   font-size: 18px;
   font-weight: 400;
+  margin-bottom: 30px;
 }
 .btn-secondary {
   border-radius: 5px;
@@ -73,7 +81,49 @@ nav h3 {
   font-weight: bold;
   padding: 18px 35px;
   font-size: 20px;
+  margin-left: 30px;
 }
 .profile-pic {
+  max-width: 584px;
+  max-height: 676px;
   /* margin-top: -676px; */
+  margin-right: 40px;
+}
+/* main section styles */
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+/* about section styles */
+.about {
+  text-align: center;
+  margin: 130px 0;
+  padding: 130px 155px;
+}
+.section-title {
+  font-size: 35px;
+  font-weight: bold;
+  color: #181818;
+}
+.section-desc {
+  font-size: 18px;
+  font-weight: 400;
+  color: #757575;
+}
+.about-info-container {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+}
+.info-title {
+  font-size: 20px;
+  font-weight: 400;
+  color: #757575;
+  margin: 30px 0 0 0;
+}
+.info-desc {
+  margin: 0;
+  font-size: 20px;
+  font-weight: bold;
+  color: #474747;
 }
