@@ -109,6 +109,7 @@ main {
   font-size: 18px;
   font-weight: 400;
   color: #757575;
+  margin: 0 0 30px 0;
 }
 .about-info-container {
   display: flex;
@@ -119,11 +120,38 @@ main {
   font-size: 20px;
   font-weight: 400;
   color: #757575;
-  margin: 30px 0 0 0;
 }
 .info-desc {
   margin: 0;
   font-size: 20px;
   font-weight: bold;
   color: #474747;
+}
+/* tech section styles */
+.tech {
+  text-align: center;
+}
+.tech > p {
+  padding: 0 120px;
+  margin-bottom: 50px;
+}
+.tech-container {
+  display: flex;
+  gap: 25px;
+  text-align: justify;
+}
+.tech-info {
+  border-radius: 5px;
+  box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+  padding: 30px;
+}
+.tech-title {
+  font-size: 20px;
+  font-weight: bold;
+  color: #181818;
+}
+.tech-desc {
+  font-size: 16px;
+  font-weight: 400;
+  color: #757575;
 }
