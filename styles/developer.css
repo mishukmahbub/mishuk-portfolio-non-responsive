@@ -195,3 +195,36 @@ hr {
   text-align: center;
   margin-top: 50px;
 }
+/* footer styles */
+footer {
+  display: flex;
+  gap: 110px;
+  background-color: #fff8f3;
+  padding: 130px 230px;
+}
+.connect .section-title,
+.message .section-title {
+  text-align: left;
+  margin-bottom: 30px;
+}
+footer p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #474747;
+  margin-bottom: 30px;
+  max-width: 560px;
+}
+form input,
+form textarea {
+  border-style: none;
+  border-radius: 5px;
+  margin-bottom: 25px;
+  width: 100%;
+  padding: 20px 30px;
+}
+form textarea {
+  height: 180px;
+}
+form input[type="submit"] {
+  max-width: 150px;
+}
