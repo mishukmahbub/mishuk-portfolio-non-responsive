@@ -104,6 +104,7 @@ main {
   font-size: 35px;
   font-weight: bold;
   color: #181818;
+  text-align: center;
 }
 .section-desc {
   font-size: 18px;
@@ -154,4 +155,43 @@ main {
   font-size: 16px;
   font-weight: 400;
   color: #757575;
+}
+/* summary styles */
+.resume {
+  margin: 130px 0 110px;
+}
+.summary-container {
+  display: flex;
+  gap: 25px;
+}
+.summary-container h4 {
+  font-size: 30px;
+  font-weight: bold;
+  color: #474747;
+  /* margin-bottom: 30px; */
+}
+.summary-container h5 {
+  font-size: 25px;
+  font-weight: bold;
+  color: #474747;
+  margin: 0px;
+}
+.summary-container h6 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #757575;
+  margin: 0px;
+}
+.summary-container p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #757575;
+}
+hr {
+  margin: 30px 0;
+  color: #d1d1d1;
+}
+.download-cv {
+  text-align: center;
+  margin-top: 50px;
 }
